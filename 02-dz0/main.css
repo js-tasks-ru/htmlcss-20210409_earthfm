@@ -1,0 +1,62 @@
+body, h1, h2, p {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+header {
+    background: #ff2500;
+    box-sizing: border-box;
+}
+
+header h1 {    
+    text-align: center;
+    font-size: 50px;
+}
+
+nav {
+    display: flex;
+    background: #ff9a01;
+    justify-content: center;
+}
+
+nav p {
+    margin: 10px;
+    font-size: 30px;
+}
+
+nav p:last-child {
+    margin-right: 0px;
+}
+
+main {
+    padding: 10px;
+    background: #05a242;
+}
+
+article {
+    margin-bottom: 10px;
+    padding: 30px 10px 30px;
+    background: #1233ff;
+}
+
+article ul, 
+article ol {    
+    margin-left: 0px;
+    list-style-position: outside;
+    margin-left: -22px;
+}
+
+article h2 {
+    margin: 0px;
+}
+
+
+footer {
+    background: #bc3aff;
+}
+
+footer p {
+    text-align: center;
+    font-size: 50px;
+}
