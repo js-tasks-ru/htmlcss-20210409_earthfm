@@ -1,0 +1,5 @@
+.content {
+    height: 1036px; /*  временно */
+    background: #F9FAFC;
+    border-bottom: 1px solid var(--gray2);
+}
