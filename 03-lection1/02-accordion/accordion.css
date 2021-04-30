@@ -32,7 +32,7 @@
     cursor: pointer;
 }
 
-.accordion__item[open] .accordion__row{
+.accordion__item[open] .accordion__arrow {
     transform: rotate(180deg);
 }
 
