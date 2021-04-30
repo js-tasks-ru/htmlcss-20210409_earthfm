@@ -3,8 +3,6 @@
     flex-direction: column;
     justify-content: space-between;
     box-sizing: border-box;
-    width: 354px;
-    height: 185px;
     padding: 16px 24px 24px;
 
     margin: 40px; /* Временно, удалить когда добавится в карточку */
@@ -23,6 +21,7 @@
 .histogram__header {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 39px;
 }
 
 .histogram__title {
@@ -56,11 +55,12 @@
 
 .histogram__columns {
     display: flex;
+    height: 50px;
+    align-items: flex-end;
 }
 
 .histogram__column {
     width: 9px;
-    height: 50px;
 
     background: var(--blue);
 }
