@@ -1,11 +1,14 @@
 .tooltip {
-    display: inline-block;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .tooltip__content {
+    min-width: 139px;
     position: absolute;
     bottom: 120%;
-    right: -140%;
 
     display: none;
     box-sizing: border-box;
