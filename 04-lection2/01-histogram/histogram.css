@@ -1,0 +1,70 @@
+.histogram {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 16px 24px 24px;
+
+    margin: 40px; /* Временно, удалить когда добавится в карточку */
+
+    background: var(--white);
+
+    border: 1px solid var(--gray3);
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.histogram_block {
+    width: 100%;
+}
+
+.histogram__header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 39px;
+}
+
+.histogram__title {
+    margin-bottom: 6px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+
+    color: var(--black);
+}
+
+.histogram__total {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 26px;
+
+    color: var(--black);
+}
+
+.histogram__detail-link {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+
+    color: var(--blue);
+
+    cursor: pointer;
+}
+
+.histogram__columns {
+    display: flex;
+    height: 50px;
+    align-items: flex-end;
+}
+
+.histogram__column {
+    width: 9px;
+
+    background: var(--blue);
+}
+
+.histogram__column + .histogram__column  {
+    margin-left: 1px;
+}
