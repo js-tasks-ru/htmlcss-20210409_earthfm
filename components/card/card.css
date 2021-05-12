@@ -1,0 +1,42 @@
+.card {
+    max-width: 1440px;
+    height: 451px;
+}
+
+.card__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    max-width: 1100px;
+    margin: 50px auto;
+}
+
+.card__title {
+    width: 30%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+}
+
+.card__buttons {
+    width: 70%;
+    align-content: space-between;
+}
+
+.card__buttons__title {
+    width: 100px;
+}
+
+.card__buttons__item1,
+.card__buttons__item2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 16px;
+}
+
+.card__buttons__item2 {
+    margin-bottom: 0px;
+}
